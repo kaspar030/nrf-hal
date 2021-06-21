@@ -30,6 +30,9 @@ version = "=0.16.0"
 features = ["unproven"]
 version = "0.2.3"
 
+[build-dependencies]
+ld-memory = "0.2.1"
+
 [features]
 doc = []
 rt = ["nrf52840-pac/rt"]
